@@ -6,8 +6,8 @@ const btn = document.querySelector('.button');
 const movieTitleToDisplay = document.querySelector('.favoriteMovieTitle');
 
 let titleInStorage = localStorage.getItem('title');
-let imageUrlInStorage = localStorage.setItem('imageUrl');
-let yearInStorage = localStorage.setItem('year');
+let imageUrlInStorage = localStorage.getItem('imageUrl');
+let yearInStorage = localStorage.getItem('year');
 
 console.log(titleInStorage);
 console.log(imageUrlInStorage);
