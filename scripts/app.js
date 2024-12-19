@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const movieTitle = document.querySelector('.userInputTitle');
 const moviePosterUrl = document.querySelector('.userInputPosterUrl');
-const movieYear = document.querySelector('.movieYear');
+const movieYear = document.querySelector('.userInputYear');
 const btn = document.querySelector('.button');
 const movieTitleToDisplay = document.querySelector('.favoriteMovieTitle');
 
